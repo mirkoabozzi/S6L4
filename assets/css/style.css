@@ -15,6 +15,9 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
+  --bs-epicode-1: #5726c3;
+  --bs-epicode-2: #8625a5;
+  --bs-epicode-3: #cb2376;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -4344,8 +4347,8 @@ textarea.form-control-lg {
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
-  --bs-card-color: #0dcaf0;
-  --bs-card-bg: #000;
+  --bs-card-color: #00ffea;
+  --bs-card-bg: #212529;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.25rem;
   position: relative;
