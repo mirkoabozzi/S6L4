@@ -13,7 +13,11 @@ $card-color: #0dcaf0 ;
 $card-bg: #000;
 $card-border-radius: 2rem;
 $danger: #ff0077;
-
+$info: #00ffea;
+$light:#f3eeff;
+$badge-border-radius:  50rem;
+$input-border-radius: 50rem;
+$btn-border-radius: 50rem;
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../bootstrap/scss/variables";
