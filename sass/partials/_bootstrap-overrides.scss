@@ -56,6 +56,21 @@ $custom-color-map: (
 
 $theme-colors: map-merge($theme-colors , $custom-color-map );
 
+$custom-breakpoints:(
+    3-xl: 1600px,
+    4-xl: 1800px,
+);
+$grid-breakpoints: map-merge($grid-breakpoints , $custom-breakpoints);
+
+
+$custom-container-max-widths: (
+    3-xl: 1520px, 
+    4-xl: 1720px
+);
+
+$container-max-widths: map-merge($container-max-widths, $custom-container-max-widths);
+
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
